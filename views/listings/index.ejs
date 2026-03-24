@@ -1,64 +1,8 @@
 <% layout('layouts/boilerplate') %>
 
-<style>
-    #filters{
-        display: flex;
-    }
-    .filter{
-        margin-top: 1.5rem;
-        margin-right: 2rem;
-        text-align: center;
-        margin-bottom: 1rem;
-        opacity: 0.8;
-    }
-    .filter:hover{
-        opacity: 1;
-        cursor: pointer;
-    }
-    .filter p {
-        font-size: 0.85rem;
-    }
-</style>
+
 
 <body>
-    <div id="filters">
-        <div class="filter">
-            <div><i class="fa-solid fa-fire"></i></div>
-            <p>Trending</p>
-        </div>
-        <div class="filter">
-            <div><i class="fa-solid fa-bed"></i></div>
-            <p>Rooms</p>
-        </div>
-        <div class="filter">
-            <div><i class="fa-solid fa-mountain-city"></i></div>
-            <p>Iconic cities</p>
-        </div>
-        <div class="filter">
-            <div><i class="fa-solid fa-mountain"></i></div>
-            <p>Mountain</p>
-        </div>
-        <div class="filter">
-            <div><i class="fa-brands fa-fort-awesome"></i></div>
-            <p>Castels</p>
-        </div>
-        <div class="filter">
-            <div><i class="fa-solid fa-person-swimming"></i></div>
-            <p>Pools</p>
-        </div>
-        <div class="filter">
-            <div><i class="fa-solid fa-campground"></i></div>
-            <p>Camping</p>
-        </div>
-        <div class="filter">
-            <div><i class="fa-solid fa-tractor"></i></div>
-            <p>Farms</p>
-        </div>
-        <div class="filter">
-            <div><i class="fa-solid fa-igloo"></i></div>
-            <p>Arctics</p>
-        </div>
-    </div>
     <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-xs-1 mt-3">
         <% for(data of listData ){%>
             <a href="/listings/<%=data._id%>" class="listing-link">
