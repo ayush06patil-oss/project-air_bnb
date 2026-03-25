@@ -5,7 +5,6 @@ A full-stack web application inspired by Airbnb, built using the **MVC (Model-Vi
 ## 🚀 Features
 - **User Authentication**: Secure signup and login functionality.
 - **Property Listings**: Browse, view, and search for various accommodations.
-- **Booking System**: (If applicable) Reserve properties for specific dates.
 - **MVC Architecture**: Clear separation of concerns between data, logic, and UI.
 - **Responsive Design**: Fully functional on desktop, tablet, and mobile devices.
 
